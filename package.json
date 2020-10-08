@@ -1,7 +1,7 @@
 {
   "name": "away",
   "version": "1.0.0",
-  "description": "away folder for capstone deployment",
+  "description": "Away is a responsive web application that allows users to view, book, and upload luxury rental listings",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
