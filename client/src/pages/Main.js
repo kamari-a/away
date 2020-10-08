@@ -32,7 +32,7 @@ class Main extends React.Component {
                     <div className='home__search-container'>  
                         <label htmlFor='destination' className='home__destination'>Destination</label>
                         <input onChange={this.handleInput}
-                        type='search' name='search' id='search' className='home__search' placeholder='Search' ></input>
+                        type='search' name='search' id='search' className='home__search' placeholder='Search e.g. "Italy"' ></input>
                     </div>
                     <button onClick={this.handleClick}type='submit' name='search' id='search' className='home__btn'
                     >Search</button>
