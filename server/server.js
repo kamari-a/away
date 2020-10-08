@@ -10,14 +10,14 @@ app.use(cors());
 
 app.use(express.json());
 
-//allows the use of static files inside the server's 'public' folder
+//allows the use of static files inside the server's 'public' directory
 app.use(express.static('public'));
 
 //mounts the router requests on to the path /listings
 app.use('/listings', listingRoutes);
 
+//allows us to access the build in the client directory
 if (process.env.NODE_ENV === 'production') {
-    // Set static folder
     app.use(express.static('../client/build'));
   
     app.get('*', (req, res) => {
@@ -26,6 +26,7 @@ if (process.env.NODE_ENV === 'production') {
 }
 
 const PORT = process.env.PORT || 8080;
+
 app.listen(PORT, () => {
     console.log(`Server is listening on Port ${PORT}`);
 });
