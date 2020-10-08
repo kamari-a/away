@@ -1,0 +1,87 @@
+@import '../../partials/styles';
+
+.listings {
+
+    &__link {
+        text-decoration: none;
+        color: $primary-color-3;
+
+        @include small-tablet {
+            width: 300px;
+        }
+
+        @include tablet {
+            width: 370px;
+        }
+    }
+
+    &__container {
+        padding-top: 1rem;
+
+        @include small-tablet {
+            padding: 1rem 0.5rem;
+        }
+    }
+
+    &__title {
+        padding-bottom: 1rem;
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+
+        &:hover {
+            color: $primary-color-5;
+        }
+
+        &:focus {
+            color: $primary-color-5;
+            outline: none;
+        }
+    }
+
+    &__favourite {
+        @include favourite-icon;
+    }
+
+    &__location {
+        padding-bottom: 0.75rem;
+        font-size: 0.8rem;
+        font-weight: normal;
+        text-transform: capitalize;
+
+        @include small-tablet {
+            font-size: 0.9rem;
+        }
+    }
+
+    &__img {
+        width: 100%;
+        height: auto;
+        border-radius: 3px;
+
+        @include small-tablet {
+            height: 220px;
+        }
+    }
+
+    &__capacity-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding-top: 1rem;
+        font-size: 0.8rem;
+    }
+
+    &__capacity {
+        padding-bottom: 0.5rem;
+        padding-right: 0.5rem;
+
+        &:hover {
+            color: $primary-color-5;
+        }
+
+        @include desktop {
+            font-size: 1rem;
+        }
+    }
+}

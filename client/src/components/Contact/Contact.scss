@@ -1,0 +1,36 @@
+@import '../../partials/styles';
+
+.profile {
+
+    &__contact-container {
+        padding-bottom: 1rem;
+    }
+
+    &__contact-title {
+        color: $primary-color-5;
+        padding: 1rem 0;
+        display: flex;
+        align-items: center;
+    }
+
+    &__contact-content {
+        padding-bottom: 0.5rem;
+
+        @include small-tablet {
+            font-size: 1.25rem;
+        }
+    }
+
+    &__contact-details {
+        padding-top: 0.5rem;
+
+        @include small-tablet {
+            font-size: 1.25rem;
+            padding-top: 1rem;
+        }
+    }
+
+    &__contact-details--email {
+        color: $primary-color-5;
+    }
+}

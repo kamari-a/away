@@ -1,0 +1,33 @@
+@import '../../partials/styles';
+
+.reviews {
+
+    &__title {
+        padding: 1rem 0 0;
+        font-size: 1.75rem;
+
+        &:hover {
+            color: $primary-color-5;
+        }
+    }
+
+    &__review {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem 0;
+
+        @include desktop {
+            font-size: 1.25rem;
+        }
+    }
+
+    &__review-header {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0.5rem;
+    }
+
+    &__name {
+        font-weight: bold;
+    }
+}

@@ -1,0 +1,19 @@
+@import '../../partials/styles';
+
+.single-listing {
+    &__img-container {
+        @include desktop {
+            max-width: calc(100% - 2rem);
+        }
+    }
+
+    &__img {
+        width: 100%;
+        height: auto;
+        padding: 0.25rem 0;
+
+        @include desktop {
+            padding: 0.5rem 0;
+        }
+    }
+}

@@ -1,0 +1,61 @@
+@import '../../partials/styles';
+
+.date-details {
+
+    &__container {
+        padding: 2rem 0;
+
+        @include desktop {
+            font-size: 1.25rem;
+        }
+    }
+
+    &__nights-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__nights {
+        padding-bottom: 0.5rem;
+    }
+
+    &__night-price {
+        padding-bottom: 0.5rem;
+        font-weight: bold;
+
+        &:hover {
+            color: $primary-color-5;
+        }
+    }
+
+    &__total-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__total-price {
+        font-weight: bold;
+
+        &:hover {
+            color: $primary-color-5;
+        }
+    }
+
+    &__description {
+        padding: 1.5rem 0;
+    }
+
+    &__btn {
+        @include wide-btn;
+
+        @include desktop {
+            width: 286px;
+        }
+    }
+
+    &__confirmation {
+        padding-top: 1.5rem;
+        font-weight: bold;
+        color: $primary-color-5;
+    }
+}

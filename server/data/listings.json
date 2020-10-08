@@ -1,0 +1,399 @@
+[
+    {
+        "id": "italy",
+        "title": "Villa Il Santo",
+        "location": "barberino val d'Elsa, tuscany, italy",
+        "image1": "http://localhost:8080/images/italy/img1.jpg",
+        "image2": "http://localhost:8080/images/italy/img2.jpg",
+        "image3": "http://localhost:8080/images/italy/img3.jpg",
+        "image4": "http://localhost:8080/images/italy/img4.png",
+        "description": "Savor the Tyrrhenian breeze and sunset views of rural Tuscany from this 3-bedroom converted church. SLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "guests": "6",
+        "bedrooms": "3",
+        "beds": "3",
+        "baths": "2.5",
+        "price": "500",
+        "outdoor": "Pool, Pizza, Oven, BBQ, Garden",
+        "indoor": "Games Room, Sound System",
+        "essentials": "Wifi, Heating, Satellite TV, Outdoor Seating",
+        "reviews": 
+        [
+            {
+                "name": "Kamari Akers",
+                "comment": "Best trip ever!",
+                "id": "10ddde74-ec9c-11ea-adc1-0242ac120002",
+                "timestamp": "2019-11-24"
+            },
+            {
+                "name": "David Lye",
+                "comment": "Totally out of this world. Will be recommending this to everyone I know.",
+                "id": "10ddde74-ec9c-11ea-adc1-0242ac120003",
+                "timestamp": "2019-04-18"
+            }
+        ]
+    },
+    {
+        "id": "joshua tree",
+        "title": "El Agave Ranch",
+        "location": "joshua tree, california, united states",
+        "image1": "http://localhost:8080/images/joshuatree/img1.jpg",
+        "image2": "http://localhost:8080/images/joshuatree/img2.jpg",
+        "image3": "http://localhost:8080/images/joshuatree/img3.jpg",
+        "image4": "http://localhost:8080/images/joshuatree/img4.jpg",
+        "description": "Whether you’re a rock scrambler, a trail rambler, or just want to soak up the vibes of our peaceful desert paradise, El Agave Ranch will soothe your soul. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "guests": "2",
+        "bedrooms": "1",
+        "beds": "1",
+        "baths": "2",
+        "price": "450",
+        "outdoor": "Pool, Sunloungers, Terrace, BBQ, Garden",
+        "indoor": "Wood-burning Fire, Sonos Sound System",
+        "essentials": "Wifi, Air Conditioning, Espresso Seating, Outdoor Seating",
+        "reviews": 
+        [
+            {
+                "name": "Kamari Akers",
+                "comment": "Best trip ever!",
+                "id": "20ddde74-ec9c-11ea-adc1-0242ac120002",
+                "timestamp": "2019-11-24"
+            },
+            {
+                "name": "David Lye",
+                "comment": "Totally out of this world. Will be recommending this to everyone I know.",
+                "id": "20ddde74-ec9c-11ea-adc1-0242ac120003",
+                "timestamp": "2019-04-18"
+            }
+        ]
+    },
+    {
+        "id": "bali",
+        "title": "Casa Brio",
+        "location": "kabupaten badung, bali, indonesia",
+        "image1": "http://localhost:8080/images/bali/img1.jpg",
+        "image2": "http://localhost:8080/images/bali/img2.jpg",
+        "image3": "http://localhost:8080/images/bali/img3.jpg",
+        "image4": "http://localhost:8080/images/bali/img4.jpg",
+        "description": "Experience the magic of Bali from the secluded and intimate setting of Casa Brio. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "guests": "8",
+        "bedrooms": "4",
+        "beds": "4",
+        "baths": "3",
+        "price": "300",
+        "outdoor": "Two Pools, Bluetooth Speaker, BBQ, Garden",
+        "indoor": "Wine Fridge, Open-Air Dining Area, Sound System",
+        "essentials": "Wifi, Gardener, Butler, Housekeeping",
+        "reviews": 
+        [
+            {
+                "name": "Kamari Akers",
+                "comment": "Best trip ever!",
+                "id": "30ddde74-ec9c-11ea-adc1-0242ac120002",
+                "timestamp": "2019-11-24"
+            },
+            {
+                "name": "David Lye",
+                "comment": "Totally out of this world. Will be recommending this to everyone I know.",
+                "id": "30ddde74-ec9c-11ea-adc1-0242ac120003",
+                "timestamp": "2019-04-18"
+            }
+        ]
+    },
+    {
+        "id": "los angeles",
+        "title": "Stahl House",
+        "location": "los angeles, california, united states",
+        "image1": "http://localhost:8080/images/stahl/img1.jpg",
+        "image2": "http://localhost:8080/images/stahl/img2.jpg",
+        "image3": "http://localhost:8080/images/stahl/img3.jpg",
+        "image4": "http://localhost:8080/images/stahl/img4.jpg",
+        "description": "Perhaps the most widely recognized house in Los Angeles, and one of the most iconic homes ever built, the Stahl House contributed to perhaps the most significant appeal of postwar architecture in Southern California: indoor-outdoor living. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "guests": "4",
+        "bedrooms": "2",
+        "beds": "2",
+        "baths": "2",
+        "price": "1000",
+        "outdoor": "Pool, Pizza Oven, BBQ, Garden",
+        "indoor": "Bluetooth Speakers, Gas Fireplace",
+        "essentials": "Wifi, Heating, Satellite TV, Outdoor Seating",
+        "reviews": 
+        [
+            {
+                "name": "Kamari Akers",
+                "comment": "Best trip ever!",
+                "id": "40ddde74-ec9c-11ea-adc1-0242ac120002",
+                "timestamp": "2019-11-24"
+            },
+            {
+                "name": "David Lye",
+                "comment": "Totally out of this world. Will be recommending this to everyone I know.",
+                "id": "40ddde74-ec9c-11ea-adc1-0242ac120003",
+                "timestamp": "2019-04-18"
+            }
+        ]
+    },
+    {
+        "id": "california",
+        "title": "Twilight Ridge",
+        "location": "sonoma, california, united states",
+        "image1": "http://localhost:8080/images/sonoma/img1.png",
+        "image2": "http://localhost:8080/images/sonoma/img2.jpg",
+        "image3": "http://localhost:8080/images/sonoma/img3.jpg",
+        "image4": "http://localhost:8080/images/sonoma/img4.jpg",
+        "description": "Located at the edge Sonoma, just below the highlands, this remodeled home captures a slice of paradise in the heart of Wine Country. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "guests": "10",
+        "bedrooms": "5",
+        "beds": "5",
+        "baths": "4",
+        "price": "600",
+        "outdoor": "Pool, Terrace, Natural Gas BBQ, Garden",
+        "indoor": "Media Room, Sonos Sound System, Wood-burning Fireplace",
+        "essentials": "Wifi, Air Conditioning, Satellite TV, Espresso Machine",
+        "reviews": 
+        [
+            {
+                "name": "Kamari Akers",
+                "comment": "Best trip ever!",
+                "id": "50ddde74-ec9c-11ea-adc1-0242ac120002",
+                "timestamp": "2019-11-24"
+            },
+            {
+                "name": "David Lye",
+                "comment": "Totally out of this world. Will be recommending this to everyone I know.",
+                "id": "50ddde74-ec9c-11ea-adc1-0242ac120003",
+                "timestamp": "2019-04-18"
+            }
+        ]
+    },
+    {
+        "id": "london",
+        "title": "Wetherby Place",
+        "location": "london, england, united kingdom",
+        "image1": "http://localhost:8080/images/london/img1.jpg",
+        "image2": "http://localhost:8080/images/london/img2.jpg",
+        "image3": "http://localhost:8080/images/london/img3.jpg",
+        "image4": "http://localhost:8080/images/london/img4.jpg",
+        "description": "Embrace the solitude of this posh apartment nestled on a quiet street between the bustling neighborhoods of Kensington and Earl’s Court in the heart of London. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "guests": "6",
+        "bedrooms": "3",
+        "beds": "3",
+        "baths": "3.5",
+        "price": "400",
+        "outdoor": "Alfresco Dining, Outdoor Furniture",
+        "indoor": "Wine Fridge, Dishwasher, Ice Maker, Smart TV, Central Heating, Air Conditioning",
+        "essentials": "Wifi, Airport Transfer, Housekeeping, Espresso Machine",
+        "reviews": 
+        [
+            {
+                "name": "Kamari Akers",
+                "comment": "Best trip ever!",
+                "id": "60ddde74-ec9c-11ea-adc1-0242ac120002",
+                "timestamp": "2019-11-24"
+            },
+            {
+                "name": "David Lye",
+                "comment": "Totally out of this world. Will be recommending this to everyone I know.",
+                "id": "60ddde74-ec9c-11ea-adc1-0242ac120003",
+                "timestamp": "2019-04-18"
+            }
+        ]
+    },
+    {
+        "id": "la",
+        "title": "La Sua Casa",
+        "location": "los angeles, california, united states",
+        "image1": "http://localhost:8080/images/la/img1.jpg",
+        "image2": "http://localhost:8080/images/la/img2.jpg",
+        "image3": "http://localhost:8080/images/la/img3.jpg",
+        "image4": "http://localhost:8080/images/la/img4.jpg",
+        "description": "The living is easy in this impressive contemporary residence with lake and ocean views, located within a short stroll to the sand and surf. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "guests": "10",
+        "bedrooms": "5",
+        "beds": "5",
+        "baths": "6",
+        "price": "450",
+        "outdoor": "Pool, Pizza Oven, BBQ, Garden",
+        "indoor": "Games Room, Sound System",
+        "essentials": "Wifi, Outdoor Seating",
+        "reviews": 
+        [
+            {
+                "name": "Kamari Akers",
+                "comment": "Best trip ever!",
+                "id": "70ddde74-ec9c-11ea-adc1-0242ac120002",
+                "timestamp": "2019-11-24"
+            },
+            {
+                "name": "David Lye",
+                "comment": "Totally out of this world. Will be recommending this to everyone I know.",
+                "id": "70ddde74-ec9c-11ea-adc1-0242ac120003",
+                "timestamp": "2019-04-18"
+            }
+        ]
+    },
+    {
+        "id": "alps",
+        "title": "Chalet Perla",
+        "location": "antholzer see, south tyrol, italy",
+        "image1": "http://localhost:8080/images/alps/img1.jpg",
+        "image2": "http://localhost:8080/images/alps/img2.jpg",
+        "image3": "http://localhost:8080/images/alps/img3.jpg",
+        "image4": "http://localhost:8080/images/alps/img4.jpg",
+        "description": "With a spa area, home theater and attentive staff, Chalet Perla is more than a luxury ski villa—it feels like your own private resort. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "guests": "16",
+        "bedrooms": "8",
+        "beds": "10",
+        "baths": "5",
+        "price": "200",
+        "outdoor": "Mountain View, Gas BBQ, Security Cameras, Sun Loungers, Alfresco Dining with Seating for 20, Garden",
+        "indoor": "Ski Storage, Boot Warmers, Wood Fireplace, Spa, Games Room, Heated Pool, Heated Floors, Sound System",
+        "essentials": "Wifi, Heating, Satellite TV, Espresso Machine, Chef, Housekeeping",
+        "reviews": 
+        [
+            {
+                "name": "Kamari Akers",
+                "comment": "Best trip ever!",
+                "id": "80ddde74-ec9c-11ea-adc1-0242ac120002",
+                "timestamp": "2019-11-24"
+            },
+            {
+                "name": "David Lye",
+                "comment": "Totally out of this world. Will be recommending this to everyone I know.",
+                "id": "80ddde74-ec9c-11ea-adc1-0242ac120003",
+                "timestamp": "2019-04-18"
+            }
+        ]
+    },
+    {
+        "id": "saint lucia",
+        "title": "Villa Kessi",
+        "location": "soufriere, saint lucia",
+        "image1": "http://localhost:8080/images/stlucia/img1.jpg",
+        "image2": "http://localhost:8080/images/stlucia/img2.jpg",
+        "image3": "http://localhost:8080/images/stlucia/img3.jpg",
+        "image4": "http://localhost:8080/images/stlucia/img4.jpg",
+        "description": "Villa Kessi is its own little oasis, where privacy, peace and tranquility are only interrupted by bird songs and crashing of waves. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "guests": "8",
+        "bedrooms": "4",
+        "beds": "4",
+        "baths": "3",
+        "price": "250",
+        "outdoor": "Pool, Day Bed, BBQ, Garden",
+        "indoor": "Coffee Maker, Sound System",
+        "essentials": "Wifi, Kitchen, Washer, Dryer, Phone, Ceiling Fans",
+        "reviews": 
+        [
+            {
+                "name": "Kamari Akers",
+                "comment": "Best trip ever!",
+                "id": "90ddde74-ec9c-11ea-adc1-0242ac120002",
+                "timestamp": "2019-11-24"
+            },
+            {
+                "name": "David Lye",
+                "comment": "Totally out of this world. Will be recommending this to everyone I know.",
+                "id": "90ddde74-ec9c-11ea-adc1-0242ac120003",
+                "timestamp": "2019-04-18"
+            }
+        ]
+    },
+   
+    {
+        "id": "new york",
+        "title": "One Vandam",
+        "location": "soHo, new york, united states",
+        "image1": "http://localhost:8080/images/nyc/img1.jpg",
+        "image2": "http://localhost:8080/images/nyc/img2.jpg",
+        "image3": "http://localhost:8080/images/nyc/img3.jpg",
+        "image4": "http://localhost:8080/images/nyc/img4.jpg",
+        "description": "South of Houston Street, One Vandam sits at the crossroads of New York City’s favorite downtown neighborhoods. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "guests": "4",
+        "bedrooms": "2",
+        "beds": "2",
+        "baths": "2",
+        "price": "400",
+        "outdoor": "Roof Terrace",
+        "indoor": "Games Room, Sound System",
+        "essentials": "Wifi, Heating, Smart TV, Air Conditioning, Espresso Machine, Airport Transfer",
+        "reviews": 
+        [
+            {
+                "name": "Kamari Akers",
+                "comment": "Best trip ever!",
+                "id": "100ddde74-ec9c-11ea-adc1-0242ac120002",
+                "timestamp": "2019-11-24"
+            },
+            {
+                "name": "David Lye",
+                "comment": "Totally out of this world. Will be recommending this to everyone I know.",
+                "id": "100ddde74-ec9c-11ea-adc1-0242ac120003",
+                "timestamp": "2019-04-18"
+            }
+        ]
+    },
+    {
+        "id": "paris",
+        "title": "Maison Privée",
+        "location": "champs-Élysées, paris, france",
+        "image1": "http://localhost:8080/images/paris/img1.jpg",
+        "image2": "http://localhost:8080/images/paris/img2.jpg",
+        "image3": "http://localhost:8080/images/paris/img3.jpg",
+        "image4": "http://localhost:8080/images/paris/img4.jpg",
+        "description": "With the Élysée Palace as your neighbor, step into French luxury and sophistication in the heart of the 8e Arrondissement in Paris. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "guests": "4",
+        "bedrooms": "2",
+        "beds": "2",
+        "baths": "2",
+        "price": "550",
+        "outdoor": "Balcony, Street Parking",
+        "indoor": "Jacuzzi, Sound System",
+        "essentials": "Wifi, Smart TV, Air Conditioning, Espresso Machine, Airport Transfer",
+        "reviews": 
+        [
+            {
+                "name": "Kamari Akers",
+                "comment": "Best trip ever!",
+                "id": "110ddde74-ec9c-11ea-adc1-0242ac120002",
+                "timestamp": "2019-11-24"
+            },
+            {
+                "name": "David Lye",
+                "comment": "Totally out of this world. Will be recommending this to everyone I know.",
+                "id": "110ddde74-ec9c-11ea-adc1-0242ac120003",
+                "timestamp": "2019-04-18"
+            }
+        ]
+    },
+    {
+        "id": "sydney",
+        "title": "Woodfin House",
+        "location": "sydney, new south wales, australia",
+        "image1": "http://localhost:8080/images/sydney/img1.jpg",
+        "image2": "http://localhost:8080/images/sydney/img2.jpg",
+        "image3": "http://localhost:8080/images/sydney/img3.jpg",
+        "image4": "http://localhost:8080/images/sydney/img4.jpg",
+        "description": "Find peace and tranquility at this hillside home set amongst lush greenery on the outskirts of Sydney. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+        "guests": "16",
+        "bedrooms": "8",
+        "beds": "8",
+        "baths": "5.5",
+        "price": "600",
+        "outdoor": "Balcony",
+        "indoor": "Games Room, Sound System",
+        "essentials": "Wifi, Heating, Smart TV, Air Conditioning, Espresso Machine, Airport Transfer",
+        "reviews": 
+        [
+            {
+                "name": "Kamari Akers",
+                "comment": "Best trip ever!",
+                "id": "120ddde74-ec9c-11ea-adc1-0242ac120002",
+                "timestamp": "2019-11-24"
+            },
+            {
+                "name": "David Lye",
+                "comment": "Totally out of this world. Will be recommending this to everyone I know.",
+                "id": "120ddde74-ec9c-11ea-adc1-0242ac120003",
+                "timestamp": "2019-04-18"
+            }
+        ]
+    }
+]

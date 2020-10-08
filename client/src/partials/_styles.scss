@@ -1,0 +1,17 @@
+@import '../partials/fonts';
+@import '../partials/variables';
+@import '../partials/mixins';
+
+/* Universal Styling */
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-size: 16px;
+    font-family: 'Neue-Regular';
+    color: $primary-color-3;
+}

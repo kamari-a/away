@@ -1,0 +1,103 @@
+@import '../../partials/styles';
+
+.header {
+    height: 0; 
+    z-index: 1;
+
+    &__logo {
+        display: none;
+
+        @include small-tablet {
+            display: inline-block;
+            position: absolute;
+            height: 2rem;
+            width: 2rem;
+            left: 3rem;
+            top: 1.5rem;
+        }
+
+        @include desktop {
+            left: 4rem;
+            height: 3rem;
+            width: 3rem;
+        }
+    }
+
+    &__logo-link {
+        display: none;
+
+        @include small-tablet {
+            display: inline-block;
+        }
+    }
+
+    &__logo--login {
+        position: absolute;
+        height: 2rem;
+        width: 2rem;
+        left: 1rem;
+        top: 1rem;
+
+        @include small-tablet {
+            left: 3rem;
+            top: 1.5rem;
+        }
+
+        @include desktop {
+            left: 4rem;
+            height: 3rem;
+            width: 3rem;
+        }
+    }
+
+    &__nav {
+        position: fixed;
+        bottom: 0;
+        background: $primary-color-1;
+        height: 4rem;
+        width: 100%;
+        border-top: 1px solid $primary-color-2;
+        padding: 1.25rem 1rem;
+
+        @include small-tablet {
+            position: relative;
+            top: 0;
+            background: none;
+            height: 4rem;
+            padding: 2rem 3rem 0;
+            border: none;
+        }
+
+        @include desktop {
+            padding: 2.8rem 4rem;
+        }
+    }
+
+    &__nav-list {
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+
+        @include small-tablet {
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        @include desktop {
+            font-size: 1.2rem;
+        }
+    }
+
+    &__nav-item {
+        color: $primary-color-3;
+
+        &:hover {
+            color: $primary-color-5;
+            text-decoration: underline;
+        }
+
+        @include small-tablet {
+            padding-left: 2.5rem;
+        }
+    }
+}

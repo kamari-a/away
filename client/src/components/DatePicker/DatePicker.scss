@@ -1,0 +1,58 @@
+@import '../../partials/styles';
+
+.date-picker {
+
+    &__container {
+        padding-bottom: 1rem;
+    }
+
+    &__title {
+        padding: 1rem 0;
+        font-size: 1.75rem;
+
+        &:hover {
+            color: $primary-color-5;
+        }
+
+        @include desktop {
+            padding: 2rem 0 1.25rem;
+        }
+    }
+
+    &__description {
+        font-size: 1rem;
+        padding-bottom: 1rem;
+
+        @include desktop {
+            font-size: 1.25rem;
+        }
+    }
+}
+
+//overrides the react-dates styling
+.CalendarDay__selected_span {
+    background: $primary-color-4; 
+    color: white; 
+    border: 1px solid $primary-color-5; 
+}
+
+.CalendarDay__selected {
+    background: $primary-color-4;
+    color: white;
+}
+
+
+.CalendarDay__selected:hover {
+    background: $primary-color-5;
+    color: white;
+}
+
+.CalendarDay__hovered_span:hover,
+.CalendarDay__hovered_span {
+    background: $primary-color-6;
+    color: white;
+}
+
+.DateInput_input__focused {
+    border-bottom: 2px solid $primary-color-4;
+}

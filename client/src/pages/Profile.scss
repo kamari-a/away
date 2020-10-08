@@ -1,0 +1,78 @@
+@import '../partials/styles';
+
+.profile {
+    padding: 4rem 1rem 1rem 1rem;
+    height: 100%;
+
+    @include small-tablet {
+        padding: 5rem 3rem 2rem;
+    }
+
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+
+        @include desktop {
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    &__title {
+        color: $primary-color-5;
+
+        @include small-tablet {
+            font-size: 3rem;
+        }
+    }
+
+    &__user {
+        font-size: 1.25rem;
+        color: $primary-color-3;
+
+        @include small-tablet {
+            font-size: 2rem;
+        }
+    }
+
+    &__container {
+        padding-top: 1rem;
+
+        @include desktop {
+            height: 350px;
+        }
+    }
+
+    &__description {
+        font-size: 1rem;
+        font-weight: bold;
+        padding-top: 0.75rem;
+
+        @include small-tablet {
+            font-size: 1.5rem;
+        }
+
+        @include desktop {
+            padding-top: 1rem;
+        }
+    }
+
+    &__icon {
+        height: 2.5rem;
+        width: 2.5rem;
+    }
+
+    &__btn {
+        @include wide-btn;
+        display: inline-block;
+
+        @include small-tablet {
+            @include small-btn;
+            align-self: flex-end;
+            position: fixed;
+            bottom: 2rem;
+            right: 3rem;
+        }
+    }
+}

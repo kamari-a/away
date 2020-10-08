@@ -1,0 +1,43 @@
+@import '../../partials/styles';
+
+.listings {
+
+    &__filters {
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+
+        @include small-tablet {
+            padding: 5rem 3.5rem 0;
+        }
+
+        @include desktop {
+            padding: 6rem 4.5rem 1rem;
+        }
+    }
+
+    &__filters-title {
+        color: $primary-color-5;
+        display: flex;
+        align-items: center;
+    }
+
+    &__icon {
+        height: 2.25rem;
+        width: 2.25rem;
+    }
+
+    &__label {
+        padding-top: 0.5rem;
+        @include input-label;
+    }
+
+    &__input {
+        @include input;
+        background-color: $primary-color-1;
+
+        @include desktop {
+            margin-bottom: 0.5rem;
+        }
+    }
+}

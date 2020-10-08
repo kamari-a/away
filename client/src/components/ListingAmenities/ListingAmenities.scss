@@ -1,0 +1,30 @@
+@import '../../partials/styles';
+
+.single-listing {
+    &__amenities-title {
+
+        @include desktop {
+            font-size: 1.75rem;
+        }
+
+        &:hover {
+            color: $primary-color-5;
+        }
+    }
+
+    &__amenities-type {
+        padding-top: 1.5rem;
+
+        @include desktop {
+            font-size: 1.25rem; 
+        }
+    }
+
+    &__amenities {
+        padding: 0.5rem 0;
+
+        @include desktop {
+            font-size: 1.25rem;
+        }
+    }
+}

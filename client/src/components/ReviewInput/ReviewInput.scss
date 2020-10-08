@@ -1,0 +1,78 @@
+@import '../../partials/styles';
+
+.reviews {
+
+    @include desktop {
+        font-size: 1.25rem;
+    }
+
+    &__form-title {
+        padding: 1rem 0;
+
+        &:hover {
+            color: $primary-color-5;
+        }
+
+        @include desktop {
+            font-size: 1.75rem;
+        }
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        @include main-font;
+    }
+
+    &__name-heading {
+        font-weight: bold;
+        padding-bottom: 0.5rem;
+    }
+
+    &__name-input {
+        @include input;
+
+        @include desktop {
+            font-size: 1rem;
+        }
+
+        &::placeholder {
+            font-size: 1rem;
+        }
+
+        &:focus {
+            @include input-focus;
+        }
+    }
+
+    &__review-heading {
+        font-weight: bold;
+        padding-bottom: 0.5rem;
+    }
+
+    &__review-input {
+        @include input;
+        resize: none;
+
+        @include desktop {
+            font-size: 1rem;
+        }
+
+        &::placeholder {
+            font-size: 1rem;
+        }
+
+        &:focus {
+            @include input-focus;
+        }
+    }
+
+    &__btn {
+        @include wide-btn;
+
+        @include desktop {
+            width: 17.88rem;
+        }
+    }
+}

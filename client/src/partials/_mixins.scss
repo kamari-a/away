@@ -1,0 +1,177 @@
+/* Breakpoints */
+@mixin small-tablet{
+	@media screen and (min-width: $small-tablet-breakpoint) {
+		@content;
+	}
+}
+
+@mixin tablet {
+	@media screen and (min-width: $tablet-breakpoint) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media screen and (min-width: $desktop-breakpoint) {
+    	@content;
+    }
+}
+
+
+/* Fonts */
+@mixin heading {
+    font-family: 'Neue';
+    font-size: 2.5rem;
+}
+
+@mixin main-font {
+    font-family: 'Neue-Regular';
+}
+
+
+/* Call To Actions */
+@mixin wide-btn {
+	height: 3.75rem;
+	width: 100%;
+	@include main-font;
+	font-size: 1rem;
+	font-weight: bold;
+	color: $primary-color-1;
+	background: $primary-color-4;
+	border: 0;
+	border-radius: 8px;
+	box-shadow: 6px 8px 15px -1px rgba(0,0,0,0.12);
+
+	@include small-tablet {
+		font-size: 1.25rem;
+	}
+
+	&:hover {
+		background: $primary-color-5;
+		transition: 0.2s ease-in;
+	}
+
+	&:focus {
+		outline: none;
+		transition: none;
+	}
+}
+
+@mixin small-btn {
+	height: 3.5rem;
+	width: 7.5rem;
+	@include main-font;
+	font-size: 1rem;
+	font-weight: bold;
+	color: $primary-color-1;
+	background: $primary-color-4;
+	border: 0;
+	border-radius: 8px;
+	box-shadow: 6px 8px 15px -1px rgba(0,0,0,0.12);
+
+	@include small-tablet {
+		width: 10.9rem;
+		height: 4rem;
+		font-size: 1.25rem;
+	}
+
+	@include desktop {
+		width: 14rem;
+	}
+
+	&:hover {
+		background: $primary-color-5;
+		transition: 0.2s ease-in;
+	}
+
+	&:focus {
+		outline: none;
+		transition: none;
+	}
+}
+
+@mixin favourite-icon {
+	margin-left: 0.75rem;
+	height: 1.75rem;
+	width: 1.75rem;
+
+	@include small-tablet {
+		height: 2.25rem;
+		width: 2.25rem;
+	}
+
+	@include desktop {
+		margin-left: 1rem;
+		height: 2rem;
+		width: 2rem;
+	}
+}
+
+
+/* Inputs */
+@mixin input {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0.75rem 1rem;
+	border-radius: 8px;
+	border: 1.5px solid $primary-color-2;
+	margin-bottom: 0.5rem;
+	@include main-font;
+
+	@include desktop {
+		margin-bottom: 1.5rem;
+	}
+
+	&:hover {
+		border: 1.5px solid $primary-color-4;
+	}
+
+	&:focus {
+		@include input-focus;
+	}
+}
+
+@mixin input-focus {
+	outline: none;
+	border: 1.5px solid $primary-color-4;
+}
+
+@mixin input-label {
+	font-weight: bold;
+	padding-bottom: 0.5rem;
+
+	@include small-tablet {
+		font-size: 1.25rem;
+	}
+
+	@include desktop {
+		padding-bottom: 0.75rem;
+		font-size: 1rem;
+	}
+}
+
+@mixin login-input {
+	@include input;
+	width: 100%;
+
+	@include small-tablet {
+		font-size: 1.25rem;
+	}
+
+	&::placeholder {
+		font-size: 1rem;
+
+		@include small-tablet {
+			font-size: 1.25rem;
+		}
+
+		@include desktop {
+			font-size: 1rem;
+		}
+	}
+
+	&:focus {
+		@include input-focus;
+	}
+}
