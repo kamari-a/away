@@ -4,7 +4,7 @@ Away is a responsive web application that allows users to search, book, and uplo
 It was built using React.js and Firebase Authentication for the front end, and Node.js and Express.js for the back end.
 
 # Instructions
-You can view Away here: https://agile-springs-14649.herokuapp.com/
+You can view Away here: https://away.herokuapp.com/
 
 # Next Steps
 My next steps for this project are:
